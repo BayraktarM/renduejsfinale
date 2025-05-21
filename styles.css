@@ -1,0 +1,23 @@
+section{
+    height: 200px;
+    background-color: rgb(237, 237, 237);
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#nom{
+    font-size: 25px;
+    height: 50px;
+        width: 200PX;
+}
+#frase{
+    font-size: 15px;
+    height: 50px;
+        width: 200PX;
+}
+button{
+    height: 50px;
+        width: 200PX;
+}
