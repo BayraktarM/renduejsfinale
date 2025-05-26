@@ -1,23 +1,115 @@
-section{
-    height: 200px;
-    background-color: rgb(237, 237, 237);
-    display: flex
+
+button{
+    border-color: gold;
+    border: solid;
+    border-radius: 50PX;
+    height: 50px;
+    width: 200PX;
+    box-shadow: 0PX 0PX 2PX 2PX goldenrod;
+    border: thick;
+}
+button:hover{
+ border-color: gold;
+    border: solid;
+    border-radius: 50PX;
+    height: 50px;
+    width: 200PX;
+    box-shadow: 0PX 0PX 2PX 2PX goldenrod;
+    border: thick;
+color: goldenrod;
+}
+
+*{
+    background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#header{
+   
+    display:flex;
 ;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
-#nom{
-    font-size: 25px;
-    height: 50px;
-        width: 200PX;
+.carte{
+     /* background-image:url(Votre\ texte\ de\ paragraphe.png) ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2Px 20Px 7PX goldenrod;
+        margin-bottom: 50PX;
+        padding: 15PX;
 }
-#frase{
-    font-size: 15px;
-    height: 50px;
-        width: 200PX;
+
+#img{
+    width: 450PX;
+    border-radius: 30Px;
 }
-button{
-    height: 50px;
-        width: 200PX;
+.carte1{
+   width:658PX;
+   display: flex
+;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 50PX;
+    box-shadow: 0px 0px 20px 8pX goldenrod;
+    border-radius: 30px;
 }
+.écriture{
+   display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+  text-align: center;
+}
+p{
+    text-align: center;
+}
+.com{
+/* background-color: white;
+color: black; */
+width: 600px;
+border-radius: 30px;
+box-shadow: 0px 0px 20px 9px goldenrod;
+display: flex;
+flex-direction: row;
+    align-items: center;
+        margin-bottom: 50PX;
+padding: 10PX;  
+}
+.indentification{
+    /* background-color: white;
+color: black; */
+display: flex;
+border-radius: 30px;
+box-shadow: 0px 0px 0px 2px goldenrod;
+margin: 2px;
+flex-direction: column;
+padding: 2px;
+ text-align: center;
+}
+.note{
+    border-radius: 30px;
+
+    /* background-color: white;
+color: black; */
+ text-align: center;
+display: flex;
+}
+#img1{
+    width: 440Px;
+    margin-bottom: -98PX;
+    height: 250PX;  
+}
+
+title{
+    color: black;
+}
+script{color: black;}
