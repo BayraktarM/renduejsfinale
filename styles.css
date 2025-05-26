@@ -21,7 +21,7 @@ color: goldenrod;
 
 *{
     background-color: black;
-  color: aliceblue;
+  color: rgb(231, 233, 235);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,6 +44,7 @@ color: goldenrod;
     box-shadow: 2px 2Px 20Px 7PX goldenrod;
         margin-bottom: 50PX;
         padding: 15PX;
+
 }
 
 #img{
@@ -59,6 +60,7 @@ color: goldenrod;
     margin-bottom: 50PX;
     box-shadow: 0px 0px 20px 8pX goldenrod;
     border-radius: 30px;
+
 }
 .écriture{
    display: flex
@@ -77,7 +79,7 @@ p{
 color: black; */
 width: 600px;
 border-radius: 30px;
-box-shadow: 0px 0px 20px 9px goldenrod;
+box-shadow:0px 0px 20px 1px #eceaea;
 display: flex;
 flex-direction: row;
     align-items: center;
@@ -89,7 +91,7 @@ padding: 10PX;
 color: black; */
 display: flex;
 border-radius: 30px;
-box-shadow: 0px 0px 0px 2px goldenrod;
+box-shadow: 0px 0px 0px 1px #ffffff;
 margin: 2px;
 flex-direction: column;
 padding: 2px;
@@ -113,3 +115,16 @@ title{
     color: black;
 }
 script{color: black;}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+h2{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
