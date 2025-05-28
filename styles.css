@@ -119,12 +119,12 @@ script{color: black;}
 p {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;}
 
 h2{
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
